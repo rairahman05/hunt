@@ -1,0 +1,88 @@
+@media (max-width: 575.98px) {
+  .banner_text h2 {
+    font-size: 36px;
+    color: red;
+  }
+  .navbar {
+    padding: 0px;
+  }
+  .banner {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+    padding-top: 460px;
+    padding-bottom: 85px;
+  }
+  .right-slide-arrow {
+    display: none !important;
+  }
+  .left-slide-arrow {
+    display: none !important;
+  }
+  .banner_text p {
+    width: 530px;
+    padding-bottom: 0px;
+  }
+  .about-top .shap {
+    display: none;
+  }
+  .about-top-main .circle {
+    display: none;
+  }
+  .about-middle-left .shap {
+    display: none;
+  }
+  .text-end {
+    text-align: center !important;
+  }
+  .about-middle-right .shap {
+    display: none;
+  }
+  .about-bottom-main .circle {
+    display: none;
+  }
+  .about-bottom .shap {
+    display: none;
+  }
+  .about-middle-right-main {
+    text-align: center;
+  }
+  #portfolio {
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+  }
+  .service-line img {
+    display: none;
+  }
+  .service-left {
+    width: 0%;
+  }
+  .service-img {
+    line-height: 0px;
+  }
+  .footer-item::after {
+    background: transparent;
+  }
+  #investor-part {
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    position: static;
+  }
+  #footer-part {
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+  }
+  .team-img {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .invest-logo {
+    padding: 20px 20px;
+  }
+  #counterup {
+	clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+}
+.counter-details {
+	padding: 5px;
+	font-size: 12px;
+	transform: rotate(0deg);
+}
+.counter-wrapper {
+	transform: rotate(0deg);
+}
+}
